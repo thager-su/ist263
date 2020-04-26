@@ -1,0 +1,222 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  header {
+      background-color: #B3C4C1;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 10px;
+      padding-right: 0px;
+      margin-left: -10px;
+      margin-top: -10px;
+      margin-right: 0px;
+      margin-bottom: 70px;
+      
+  } 
+  main {
+      background-color: #B3C4C1;
+  }
+  nav {
+    background-color: #F4EBEE;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    padding-right: 0px;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: 0px;
+  }
+
+
+  .nav-item {
+    font-size: 20px;
+      padding-top: 25px;
+      padding-bottom: 35px;
+      color: #4C5B61;
+      text-decoration: none;
+      font-weight: bold;
+  }
+
+  .navbar-brand {
+      font-weight: bold;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #2D2D34;
+  }
+
+  h1 {
+      font-size: 30px;
+      color: #2D2D34;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      padding-top: 20px;
+  }
+  .nav {
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  img {
+      margin-left: -10px;
+  }
+h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    background-color: #B3C4C1;
+    margin: 0px;
+    padding: 5px;
+}
+h3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    background-color: #B3C4C1;
+    margin: 0px;
+    padding: 5px;
+}
+h4 {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+}
+.content {
+    font-size: 16px; 
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    background-color: #B3C4C1;
+    margin: 0px;
+}
+footer {
+    background-color: #4C5B61;
+}
+.footer-content {
+    color: #F4EBEE;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5em;
+}
+.ctext {
+    color: #F4EBEE;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000;
+				-1px -1px 0 #000;
+}
+a:hover {
+    color: #ffffff;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-color: #B3C4C1;
+    width: 50%;
+  }
+.about-titles {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    text-align: center;
+    background-color: #B3C4C1;
+}
+.about-content {
+    font-size: 21px;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    color: #2D2D34;
+    background-color: #B3C4C1;
+}
+.scard-title {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ACC4CC;
+}
+.scard-content {
+    font-size: 21px;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    color: #2D2D34;
+    background-color: #ACC4CC;
+
+}
+.scard-image {
+    width: 90%; 
+    transform:rotate(180deg); 
+    margin-top: 1em; 
+    margin-right: auto; 
+    margin-left: auto; 
+    background-color: #6E8898;
+}
+.ccard-title {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ACC4CC;
+}
+.ccard-content {
+    font-size: 18px;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    color: #2D2D34;
+    background-color: #ACC4CC;
+
+}
+
+.dctitle {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D2D34;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dccontent {
+    font-size: 18px;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    color: #2D2D34;
+    text-align: center;
+}
+.dpcontent {
+    font-size: 18px;
+    font-family: Hind Vadodara, Helvetica, sans-serif;
+    color: #2D2D34;
+    text-align: left;
+}
+
+.mcard {
+    margin: 1em;
+}
+.aright {
+    text-align: right;
+}
+.aleft { 
+    text-align: left;
+}
+
+@media only screen and  (max-width: 768px) {
+    .aright {
+        text-align: center;
+    }
+    .aleft {
+        text-align: center; 
+    }
+}
+@media only screen and (max-width: 768px) {
+    .title-vanish {
+        display: none;
+    }
+}
+
